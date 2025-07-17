@@ -24,7 +24,7 @@ Generalizing, the class of antiderivatives of $f(x)$ is $g(x) = x^2 + C$ where $
 
 A differential equation is one that is written in terms of a derivative.  For example, looking at the above, we have seen that
 
-$\displaystyle \begin{equation}\frac{dg(x)}{dx} = 2x\end{equation}$
+$\displaystyle \frac{dg(x)}{dx} = 2x$
 
 This relationship is written in terms of the derivative of something.  Equations like these are called *differential equations* and are ubiquitous in physics.  Note that differential equations might be written in terms of second derivatives (these would be *second-order* differential equations). For example, simple harmonic motion is described by the second order differential equation
 
