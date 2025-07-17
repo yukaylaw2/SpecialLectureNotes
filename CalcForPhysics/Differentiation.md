@@ -99,6 +99,8 @@ It can be shown that
 * $\displaystyle \frac{d}{dx}[\sin x] = \cos x$
 * $\displaystyle \frac{d}{dx} [\cos x] = -\sin x$
 
+where *x* is expressed in *radians*.
+
 ### Chain Rule
 
 The crux to the chain rule is to deal with some complex function like $f(x) = \sqrt{x^2+3}$.  In this case, none of the derivatives appear to apply.  However, we could define $u(x) = x^2 + 3$, and if I do that the function is $f(u) = \sqrt{u}$.
