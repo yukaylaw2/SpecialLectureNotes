@@ -26,7 +26,11 @@ A differential equation is one that is written in terms of a derivative.  For ex
 
 $\displaystyle \frac{dg(x)}{dx} = 2x$
 
-This relationship is written in terms of the derivative of something.  Equations like these are called *differential equations* and are ubiquitous in physics.  Note that differential equations might be written in terms of second derivatives (these would be *second-order* differential equations). For example, simple harmonic motion is described by the second order differential equation
+This relationship is written in terms of the derivative of something.  Equations like these are called *differential equations* and are ubiquitous in physics.  For example, if the acceleration of a particle is $a$, then the velocity is given by the differential equation
+
+$\displaystyle \frac{dv_x}{dt} = a$
+
+Note that differential equations might be written in terms of second derivatives (these would be *second-order* differential equations). For example, simple harmonic motion is described by the second order differential equation
 
 $\displaystyle \frac{d^2 x}{dt^2} = - \omega^2 x$
 
