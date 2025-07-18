@@ -49,7 +49,7 @@ $$\begin{equation} \frac{\mbox{d}}{\mbox{d}x}[x^n] = nx^{n-1}\end{equation}$$
 >
 > What is the derivative of $x^4$?
 >
-> <details><summary>Answer</summary>Here, <math><mrow><mi>n</mi><mo>=</mo></mrow><mrow><mn>4</mn></mrow></math>
+> <details><summary>Answer</summary>Here, $dy/dx=\gamma$ <math><mrow><mi>n</mi><mo>=</mo></mrow><mrow><mn>4</mn></mrow></math>
 >  and therefore <math display="block" class="tml-display" style="display:block math;"><mstyle scriptlevel="0" displaystyle="true"><mfrac><mtext>d</mtext><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><msup><mi>x</mi><mn class="tml-sml-pad">4</mn></msup><mo>=</mo><mn>4</mn><msup><mi>x</mi><mrow class="tml-sml-pad"><mn>4</mn><mo>−</mo><mn>1</mn></mrow></msup><mo>=</mo><mn>4</mn><msup><mi>x</mi><mn class="tml-sml-pad">3</mn></msup></mstyle></math>
 > </details>
 
