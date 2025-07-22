@@ -82,19 +82,7 @@ where $$1 \leq a < 10$$ and $$n$$ is an integer.
 >
 > Convert 0.0000782 to scientific notation.
 >
-> <details><summary>Answer</summary>The approach to this problem is to move the decimal point to the right or left and count how many times until you have a number that has a units place.  In this case, you moved it to the right five times, so your exponent is -5.  Therefore, the answer is <math>
->   <mrow>
->     <mn>7.82</mn>
->     <mo>×</mo>
->     <msup>
->       <mn>10</mn>
->       <mrow>
->         <mo lspace="0em" rspace="0em">−</mo>
->         <mn>5</mn>
->       </mrow>
->     </msup>
->   </mrow>
-> </math>.</details>
+> <details><summary>Answer</summary>The approach to this problem is to move the decimal point to the right or left and count how many times until you have a number that has a units place.  In this case, you moved it to the right five times, so your exponent is -5.  Therefore, the answer is 7.82 x 10<sup>-5</sup>.</details>
 
 > ## Class Exercise
 >
@@ -142,23 +130,7 @@ You should be aware that $\sqrt[m]{a} = a^{1/m}$ which would help you simplify r
 >
 > Find $\sqrt{567x^2}$
 >
-> <details><summary>Answer</summary>To do this problem, it is important that we break down the number 567 into its factors.   By successive division[^2], we can show that 
-> <math>
->   <mrow>
->     <mn>567</mn>
->     <mo>=</mo>
->   </mrow>
->   <mrow>
->     <msup>
->       <mn>3</mn>
->       <mn>4</mn>
->     </msup>
->     <mo>×</mo>
->   </mrow>
->   <mrow>
->     <mn>7</mn>
->   </mrow>
-> </math> and hence <math display="block" class="tml-display" style="display:block math;"><mrow><msqrt><mrow><mn>567</mn><msup><mi>x</mi><mn class="tml-sml-pad">2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>567</mn></msqrt><mo>⋅</mo><msqrt><msup><mi>x</mi><mn class="tml-sml-pad">2</mn></msup></msqrt><mo>=</mo><msqrt><mrow><msup><mn>3</mn><mn>4</mn></msup><mo>×</mo><mn>7</mn></mrow></msqrt><mo>⋅</mo><mi>x</mi><mo>=</mo><msqrt><msup><mn>3</mn><mn>4</mn></msup></msqrt><mo>⋅</mo><msqrt><mn>7</mn></msqrt><mo>⋅</mo><mi>x</mi><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>⋅</mo><mi>x</mi><msqrt><mn>7</mn></msqrt><mo>=</mo><mn>9</mn><mi>x</mi><msqrt><mn>7</mn></msqrt></mrow></math>
+> <details><summary>Answer</summary>To do this problem, it is important that we break down the number 567 into its factors.   By successive division[^2], we can show that 567 = 3<sup>4</sup> x 7 and hence <math display="block" class="tml-display" style="display:block math;"><mrow><msqrt><mrow><mn>567</mn><msup><mi>x</mi><mn class="tml-sml-pad">2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>567</mn></msqrt><mo>⋅</mo><msqrt><msup><mi>x</mi><mn class="tml-sml-pad">2</mn></msup></msqrt><mo>=</mo><msqrt><mrow><msup><mn>3</mn><mn>4</mn></msup><mo>×</mo><mn>7</mn></mrow></msqrt><mo>⋅</mo><mi>x</mi><mo>=</mo><msqrt><msup><mn>3</mn><mn>4</mn></msup></msqrt><mo>⋅</mo><msqrt><mn>7</mn></msqrt><mo>⋅</mo><mi>x</mi><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>⋅</mo><mi>x</mi><msqrt><mn>7</mn></msqrt><mo>=</mo><mn>9</mn><mi>x</mi><msqrt><mn>7</mn></msqrt></mrow></math>
 > </details>
 
 ## When Are Radicals Simplified?
