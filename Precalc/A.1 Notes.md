@@ -1,7 +1,4 @@
-<head><script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script></head>
-# A.1 Real Numbers and Their Properties
+# A.1 Real Numbers and Their Properties (first half)
 
 These notes are the notes I use for class and are *not* intended to be error-free or complete.  It is assumed that you would read your textbook and that you would ask questions in class.  The provision of these notes is there so that you would have backup information as needed.
 
