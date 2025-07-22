@@ -130,8 +130,12 @@ You should be aware that $\sqrt[m]{a} = a^{1/m}$ which would help you simplify r
 >
 > Find $\sqrt{567x^2}$
 >
-> <details><summary>Answer</summary>To do this problem, it is important that we break down the number 567 into its factors.   By successive division[^2], we can show that 567 = 3<sup>4</sup> x 7 and hence <math display="block" class="tml-display" style="display:block math;"><mrow><msqrt><mrow><mn>567</mn><msup><mi>x</mi><mn class="tml-sml-pad">2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>567</mn></msqrt><mo>⋅</mo><msqrt><msup><mi>x</mi><mn class="tml-sml-pad">2</mn></msup></msqrt><mo>=</mo><msqrt><mrow><msup><mn>3</mn><mn>4</mn></msup><mo>×</mo><mn>7</mn></mrow></msqrt><mo>⋅</mo><mi>x</mi><mo>=</mo><msqrt><msup><mn>3</mn><mn>4</mn></msup></msqrt><mo>⋅</mo><msqrt><mn>7</mn></msqrt><mo>⋅</mo><mi>x</mi><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>⋅</mo><mi>x</mi><msqrt><mn>7</mn></msqrt><mo>=</mo><mn>9</mn><mi>x</mi><msqrt><mn>7</mn></msqrt></mrow></math>
-> </details>
+> <details><summary>Answer</summary><p>
+>     To do this problem, it is important that we break down the number 567 into its factors.   By successive division[^2], we can show that 
+>       567 = 3<sup>4</sup> x 7.  Therefore,</p>
+>    <p align="center">
+>        <img alt="breaking down the factor to 9x*sqrt(7)" src="factoring_surd.png" width=200px></p>
+>   </details>
 
 ## When Are Radicals Simplified?
 
@@ -150,13 +154,16 @@ Radicals are simplified when:
 >
 > <details><summary>Answer to Q. 1</summary><math display="block" class="tml-display" style="display:block math;"><mrow><mn>3</mn><msqrt><mn>8</mn></msqrt><mo>+</mo><msqrt><mn>18</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><msup><mn>2</mn><mn>3</mn></msup></msqrt><mo>+</mo><msqrt><mrow><mn>2</mn><mo>×</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt><mo form="prefix" stretchy="false">(</mo><mn>2</mn><mo>⋅</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo form="postfix" stretchy="false">)</mo><mo>=</mo><mn>9</mn><msqrt><mn>2</mn></msqrt></mrow></math></details>
 >
-> <details><summary>Answer to Q. 2</summary>The key to this problem is to factorize every part inside the radical, and separate the powers of 3 by recognizing that <math><mrow><msup><mi>x</mi><mi class="tml-sml-pad">m</mi></msup><msup><mi>x</mi><mi class="tml-sml-pad">n</mi></msup><mo>=</mo></mrow><mrow><msup><mi>x</mi><mrow class="tml-sml-pad"><mi>m</mi><mo>+</mo><mi>n</mi></mrow></msup></mrow></math>.  In this case, <math display="block" class="tml-display" style="display:block math;"><mrow><mroot><mrow><mn>81</mn><msup><mi>x</mi><mn class="tml-sml-pad">5</mn></msup></mrow><mn>3</mn></mroot><mo>−</mo><mroot><mrow><mn>24</mn><msup><mi>x</mi><mn class="tml-sml-pad">2</mn></msup></mrow><mn>3</mn></mroot><mo>=</mo><mroot><mrow><msup><mn>3</mn><mn>4</mn></msup><msup><mi>x</mi><mn class="tml-sml-pad">5</mn></msup></mrow><mn>3</mn></mroot><mo>−</mo><mroot><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>⋅</mo><mn>3</mn><msup><mi>x</mi><mn class="tml-sml-pad">2</mn></msup></mrow><mn>3</mn></mroot><mo>=</mo><mroot><mrow><mo form="prefix" stretchy="false" lspace="0em" rspace="0em">(</mo><mn>3</mn><mi>x</mi><msup><mo form="postfix" stretchy="false">)</mo><mn>3</mn></msup><mo>⋅</mo><mn>3</mn><msup><mi>x</mi><mn class="tml-sml-pad">2</mn></msup></mrow><mn>3</mn></mroot><mo>−</mo><mn>2</mn><mroot><mrow><mn>3</mn><msup><mi>x</mi><mn class="tml-sml-pad">2</mn></msup></mrow><mn>3</mn></mroot><mo>=</mo><mo form="prefix" stretchy="false">(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo form="postfix" stretchy="false">)</mo><mroot><mrow><mn>3</mn><msup><mi>x</mi><mn class="tml-sml-pad">2</mn></msup></mrow><mn>3</mn></mroot></mrow></math></details>
+> <details><summary>Answer to Q. 2</summary><p>
+>     The key to this problem is to factorize every part inside the radical, and separate the powers of 3 by recognizing that x<sup>m</sup>x<sup>n</sup>=x<sup>m+n</sup>.  In this case:</p>
+> <p align="center">
+>     <img src="radsoln2.png" alt="solution path to this problem" width=350px></p></details>
 
 > ### Class Exercise
 >
 > Simplify $2\sqrt{2} + 9\sqrt{50}$
 >
-> <details><summary>Answer</summary><math><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo></mrow><mrow><mn>9</mn><msqrt><mn>50</mn></msqrt><mo>=</mo></mrow><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo></mrow><mrow><mn>9</mn><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>×</mo><mn>2</mn></mrow></msqrt><mo>=</mo></mrow><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo></mrow><mrow><mn>45</mn><msqrt><mn>2</mn></msqrt><mo>=</mo></mrow><mrow><mn>47</mn><msqrt><mn>2</mn></msqrt></mrow></math></details>
+> <details><summary>Answer</summary><img src="radclassexsoln.png" width=300px alt="solution to this problem ending as 47sqrt(2)"></details>
 
 ### Simplifying Fractions with Radicals
 
@@ -172,16 +179,19 @@ Sometimes you may have to adapt.  The key is to find a way to get rid of the squ
 > 1. Simplify $$\displaystyle \frac{3}{\sqrt{5} + \sqrt{6}}$$
 > 2. Rationalize the numerator in $$\displaystyle \frac{\sqrt{7}-3}{4}$$
 >
-> <details><summary>Answer to Q. 1</summary><math><mrow><mfrac><mn>3</mn><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><msqrt><mn>6</mn></msqrt></mrow></mfrac><mo>⋅</mo></mrow><mrow><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><msqrt><mn>6</mn></msqrt></mrow><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><msqrt><mn>6</mn></msqrt></mrow></mfrac><mo>=</mo></mrow><mrow><mfrac><mrow><mn>3</mn><mo form="prefix" stretchy="false">(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><msqrt><mn>6</mn></msqrt><mo form="postfix" stretchy="false" lspace="0em" rspace="0em">)</mo></mrow><mrow><mn>5</mn><mo>−</mo><mn>6</mn></mrow></mfrac><mo>=</mo></mrow><mrow><mo form="prefix" stretchy="false">−</mo></mrow><mrow><mn>3</mn><mo form="prefix" stretchy="false">(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><msqrt><mn>6</mn></msqrt><mo form="postfix" stretchy="false">)</mo><mo>=</mo></mrow><mrow><mn>3</mn><mo form="prefix" stretchy="false">(</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt><mo form="postfix" stretchy="false">)</mo></mrow></math>
+> <details><summary>Answer to Q. 1</summary><img src="simplifyrad1.png" alt="solution to first question above, ending as 3(sqrt(6)-sqrt(5))" width=300px>
 > </details>
 >
-> <details><summary>Answer to Q. 2</summary>The key here is to multiply both the top and bottom by the conjugate of the *numerator*, so this is <math display="block" class="tml-display" style="display:block math;"><mrow><mfrac><mrow><msqrt><mn>7</mn></msqrt><mo>−</mo><mn>3</mn></mrow><mn>4</mn></mfrac><mo>×</mo><mfrac><mrow><msqrt><mn>7</mn></msqrt><mo>+</mo><mn>3</mn></mrow><mrow><msqrt><mn>7</mn></msqrt><mo>+</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>7</mn><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup></mrow><mrow><mn>4</mn><mo form="prefix" stretchy="false">(</mo><msqrt><mn>7</mn></msqrt><mo>+</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mo lspace="0em" rspace="0em">−</mo><mn>2</mn></mrow><mrow><mn>4</mn><mo form="prefix" stretchy="false">(</mo><msqrt><mn>7</mn></msqrt><mo>+</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mo form="prefix" stretchy="false">(</mo><msqrt><mn>7</mn></msqrt><mo>+</mo><mn>3</mn><mo form="postfix" stretchy="false" lspace="0em" rspace="0em">)</mo></mrow></mfrac></mrow></math></details>
+> <details><summary>Answer to Q. 2</summary><p>The key here is to multiply both the top and bottom by the conjugate of the *numerator*, so this is</p>
+>     <p align="center">
+>       <img src="simplifyrad2.png" alt="multiply top and bottom by (sqrt(7)+3), ultimately get -1/2(sqrt(7)+3)" width=300px>
+>     </p></details>
 
 > #### Class Exercise
 >
 > Simplify $$\displaystyle \frac{3}{\sqrt{2}+\sqrt{5}}$$
 >
-> <details><summary>Answer</summary><math display="block" class="tml-display" style="display:block math;"><mrow><mfrac><mn>3</mn><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>×</mo><mfrac><mrow><msqrt><mn>2</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt></mrow><mrow><msqrt><mn>2</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo form="prefix" stretchy="false">(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt><mo form="postfix" stretchy="false" lspace="0em" rspace="0em">)</mo></mrow><mrow><mn>2</mn><mo>−</mo><mn>5</mn></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mrow><mo lspace="0em" rspace="0em">−</mo><mn>3</mn></mrow></mfrac><mo form="prefix" stretchy="false">(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt><mo form="postfix" stretchy="false">)</mo><mo>=</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt></mrow></math></details>
+> <details><summary>Answer</summary><img src="simpradclassex.png" alt="solution to this problem, which ends up being sqrt(5)-sqrt(2)" width=280px></details>
 
 
 
